@@ -17,7 +17,7 @@ COPY --from=builder /opt/keycloak/ /opt/keycloak/
 
 
 # Expón el puerto en el que la aplicación escuchará
-EXPOSE 8000
+EXPOSE 8080
 
 # change these values to point to a running postgres instance
 ENV KC_DB=postgres
